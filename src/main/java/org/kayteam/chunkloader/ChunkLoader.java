@@ -26,6 +26,7 @@ public class ChunkLoader extends JavaPlugin {
     private Yaml messages_es;
     private Yaml messages_en;
     private Yaml messages_ru;
+    private Yaml messages_fr;
     public static Yaml data;
     public static Yaml config;
 
