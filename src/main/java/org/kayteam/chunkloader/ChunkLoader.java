@@ -73,11 +73,13 @@ public class ChunkLoader extends JavaPlugin {
         messages_es = new Yaml(this, "messages_es");
         messages_en = new Yaml(this, "messages_en");
         messages_ru = new Yaml(this, "messages_ru");
+        messages_fr = new Yaml(this, "messages_fr");
         config = new Yaml(this,"config");
         data = new Yaml(this,"data");
         messages_es.registerYamlFile();
         messages_en.registerYamlFile();
         messages_ru.registerYamlFile();
+        messages_fr.registerYamlFile();
         config.registerYamlFile();
         data.registerYamlFile();
     }
